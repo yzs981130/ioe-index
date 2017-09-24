@@ -1,0 +1,541 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="act-base.min.js"></script>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>北京大学考试研究院</title>
+	<link rel="stylesheet" href="act.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="normalize.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="style2.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito%3A300" type="text/css" media="all" />
+	<link rel="stylesheet" href="frontend-builder-plugin-style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="dashicons.min.css" type="text/css" media="all" />
+
+
+	<script>
+        function show(id){
+            var traget=document.getElementById(id);
+            if(traget.style.display=="none") {
+                traget.style.display="";
+            }
+            else{
+                traget.style.display="none";
+            }
+        }
+	</script>
+
+
+
+
+	<style type="text/css" id="wp-custom-css">
+		.themes  .et_pb_blurb {
+			box-shadow: 0px 20px 150px #d6dee4;
+			padding: 1.5em;
+		}
+	</style>
+	<style>
+
+		.page-id-3849 .content-listing .single-item {
+			width: 22% !important;
+			margin: 0% 1.5% 4% 1.5% !important;
+		}
+
+		.page-id-3849 .container {
+			max-width: 1400px !important;
+		}
+	</style>
+</head>
+<body class="home page-template page-template-templates page-template-home page-template-templateshome-php page page-id-8 chrome et_monarch et-pb-theme-elevate et_divi_builder fixed-nav">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	<div class="bg-blue header-back"></div>
+	<div id="mobile-sidebar">
+		<div class="inner">
+			<div class="display-table">
+				<div class="display-cell">
+					<div class="container">
+						<nav id="mobile-navigation" class="animated mobile-navigation" role="navigation">
+							<div class="menu-main-menu-container">
+								<ul id="mobile-menu" class="menu">
+									<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="./news/about.html" target="_blank">关于我们</a></li>
+									<li id="menu-item-4944" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4944"><a href="./news/newsroom.html" target="_blank">新闻通告</a></li>
+									<li id="menu-item-5102" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5102"><a href="//www.futureschoolx.org" target="_blank">课程中心</a></li>
+									<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="#" target="_blank">考试报名</a></li>
+								</ul>
+							</div>
+							<div class="menu-social-media-container" style="display: none">
+								<ul id="social-menu" class="clearfix menu">
+									<li id="menu-item-41" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41"><a target="_blank" rel="nofollow" href="">Facebook</a></li>
+									<li id="menu-item-42" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42"><a target="_blank" rel="nofollow" href="">Twitter</a></li>
+									<li id="menu-item-43" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43"><a target="_blank" rel="nofollow" href="">Google+</a></li>
+									<li id="menu-item-4041" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4041"><a rel="nofollow" href="">Dribble</a></li>
+									<li id="menu-item-4042" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4042"><a rel="nofollow" href="">Github</a></li>
+								</ul>
+							</div>
+						</nav>
+						<!-- #mobile-navigation -->
+					</div>
+					<!-- .container -->
+				</div>
+			</div>
+		</div>
+		<!-- .inner -->
+	</div>
+	<header id="masthead" class="bg-blue site-header" role="banner">
+		<div class="container full-widthhhhh">
+			<div class="row">
+				<div class="four columns first site-logo">
+					<a href="###" rel="home" class="logo"> <img class="logo" src="logo.png" alt="index" /> </a>
+					<!-- .logo -->
+				</div>
+				<!-- .columns -->
+				<div class="eight columns site-navigation">
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+						<div class="menu-main-menu-container">
+							<ul id="primary-menu" class="clearfix fr">
+								<!--
+								<li><a href="javascript:void(0)" onclick="show('menu')">关于</a>
+								-->
+								</li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4944"><a href="./news/about.html" target="_blank">关于我们</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5102"><a href="news/newsroom.html" target="_blank">新闻通告</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="//www.futureschoolx.org" target="_blank">课程中心</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="#" target="_blank">考试报名</a></li>
+
+							</ul>
+						</div>
+					</nav>
+					<!-- #site-navigation -->
+					<div class="fr menu-toggle">
+						<div class="inner"></div>
+					</div>
+				</div>
+				<!-- .columns -->
+
+
+				<div class="eight columns site-navigation" style="display: none" id="menu">
+					<nav id="site-navigation1" class="main-navigation" role="navigation">
+						<div class="menu-main-menu-container">
+							<ul id="primary-menu1" class="clearfix fr">
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4944"><a href="https://elevate360.com.au/services/">信科</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5102"><a href="https://elevate360.com.au/work/">数院</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="https://elevate360.com.au/blog/">化院</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4945"><a href="https://elevate360.com.au/contact/">工资</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="https://elevate360.com.au/about/">工资</a></li>
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="http://120.pku.edu.cn">工资</a></li>
+							</ul>
+						</div>
+					</nav>
+					<!-- #site-navigation -->
+					<div class="fr menu-toggle">
+						<div class="inner"></div>
+					</div>
+				</div>
+
+			</div>
+			<!-- .row -->
+		</div>
+		<!-- .container -->
+	</header>
+	<!-- #masthead -->
+	<div id="content" class="site-content">
+		<section class="bg-blue hero">
+			<!--
+			<div class="container">
+				<h1 class="hero-title center">Solutions for K-12 Education, College, and Career Readiness</h1>
+			</div>
+			<!-- .container -->
+		</section>
+		<div id="primary" class="content-area">
+			<main id="main" class="site-main" role="main">
+				<article id="post-8" class="post-8 page type-page status-publish hentry">
+					<header class="bg-blue entry-header">
+						<div class="container intro center">
+							<img src="./assets/ac-exam.jpg"  alt="enroll"  />
+							<br><br><br>
+							<p style="text-align: center">中国大学先修课程（Advanced Pre-University Courses, AC）是由北京大学考试研究院支持建设的，在全国部分中学选修课体系内开设的大学程度的选修课。
+							</p>
+
+						</div>
+						<!-- .intro -->
+					</header>
+					<!-- .entry-header -->
+					<div class="container-section parbase section">
+						<div class="full-width-container  act-pastel-black-bg" style="display: none">
+							<div class="container container-padding">
+								<div class="responsive-columns parbase section">
+									<div class="row">
+										<div class="center-block three-forths-width">
+											<div class="  col-md-12 col-lg-12 col-sm-12 col-xs-12">
+												<div>
+													<div class="textsection parbase section">
+														<!-- Check for edit statement to be displayed -->
+														<div class="text-section  text-center   ">
+															<h2>Your Needs - Our Solutions</h2>
+															<div class="text-section-body">
+																<p>Learn how ACT can help you.</p>
+															</div>
+														</div>
+														<div class="clearfix"></div>
+													</div>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="responsive-columns parbase section">
+									<div class="row">
+										<div>
+											<div class="  col-md-6 col-lg-3 col-sm-6 col-xs-12">
+												<div class="component-mhg act-light-blue-bg well">
+													<div class="textsection parbase section">
+														<!-- Check for edit statement to be displayed -->
+														<div class="text-section  text-center audiences  " data-mh="audiences">
+															<h3> <a href="http://www.futureschoolx.com" title="中国大学先修课" target=_blank>中国大学先修课MOOC</a></h3>
+															<div class="text-section-body">
+																<p>ACT can help you plan your future, prepare for college and career, and achieve success. <br /></p>
+															</div>
+														</div>
+														<div class="clearfix"></div>
+													</div>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+										</div>
+										<div>
+											<div class="  col-md-6 col-lg-3 col-sm-6 col-xs-12">
+												<div class="component-mhg act-green-bg well">
+													<div class="textsection parbase section">
+														<!-- Check for edit statement to be displayed -->
+														<div class="text-section  text-center audiences  " data-mh="audiences">
+															<h3> <a href="http://www.act.org/content/act/en/k12-educators-and-administrators.html" title="K-12 Educators and Administrators">K-12 Educators and Administrators</a></h3>
+															<div class="text-section-body">
+																<p>ACT helps you track student progress and prepare them for success through high school and beyond.</p>
+															</div>
+														</div>
+														<div class="clearfix"></div>
+													</div>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+										</div>
+										<div>
+											<div class="  col-md-6 col-lg-3 col-sm-6 col-xs-12">
+												<div class="component-mhg act-dark-blue-bg well">
+													<div class="textsection parbase section">
+														<!-- Check for edit statement to be displayed -->
+														<div class="text-section  text-center audiences  " data-mh="audiences">
+															<h3> <a href="http://www.act.org/content/act/en/postsecondary-professionals.html" title="Postsecondary Professionals">Postsecondary Professionals</a></h3>
+															<div class="text-section-body">
+																<p>ACT solutions can help you find, attract, place, and retain students at your school.</p>
+															</div>
+														</div>
+														<div class="clearfix"></div>
+													</div>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+										</div>
+										<div>
+											<div class="  col-md-6 col-lg-3 col-sm-6 col-xs-12">
+												<div class="component-mhg act-purple-bg well">
+													<div class="textsection parbase section">
+														<!-- Check for edit statement to be displayed -->
+														<div class="text-section  text-center audiences  " data-mh="audiences">
+															<h3> <a href="http://www.act.org/content/act/en/job-seekers-and-employers.html" title="Job Seekers and Employers">Job Seekers and Employers</a></h3>
+															<div class="text-section-body">
+																<p>ACT workforce development solutions help job seekers, employees, and business leaders, achieve career and business goals.</p>
+															</div>
+														</div>
+														<div class="clearfix"></div>
+													</div>
+												</div>
+												<div class="clearfix"></div>
+											</div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="entry-content" style="display: none">
+						<section class="case-studies bg-blue">
+							<div class="container">
+								<h3 class="h1 center">Our Services</h3>
+								<div class="row">
+								</div>
+								<section class="content-listing container">
+									<div class="row">
+										<article class="single-item four columns blog-article1">
+											<div class="image-wrap">
+												<a href="https://elevate360.com.au/services/conversion-rate-optimisation/" rel="bookmark" title="Conversion Rate Optimisation"><img src="https://elevate360.com.au/wp-content/uploads/2016/08/cro-icon.png" /></a>
+											</div>
+											<div class="inner content">
+												<h2 class="entry-title"><a href="https://elevate360.com.au/services/conversion-rate-optimisation/" rel="bookmark" title="Conversion Rate Optimisation">Conversion Rate Optimisation</a></h2>
+												<a href="https://elevate360.com.au/services/conversion-rate-optimisation/">
+													<div class="excerpt-wrap">
+														<div class="excerpt">
+															<p>Fledging PPC Campaign? Organic traffic not converting? Let our team optimise your pages and get more leads.</p>
+															<div class="button" href="https://elevate360.com.au/services/conversion-rate-optimisation/" title="Find out more">
+																Find out More
+															</div>
+														</div>
+														<div class="overlay"></div>
+													</div></a>
+											</div>
+										</article>
+										<article class="single-item four columns blog-article1">
+											<div class="image-wrap">
+												<a href="https://elevate360.com.au/services/copywriting/" rel="bookmark" title="Copywriting"><img src="https://elevate360.com.au/wp-content/uploads/2016/08/design-icon.png" /></a>
+											</div>
+											<div class="inner content">
+												<h2 class="entry-title"><a href="https://elevate360.com.au/services/copywriting/" rel="bookmark" title="Copywriting">Copywriting</a></h2>
+												<a href="https://elevate360.com.au/services/copywriting/">
+													<div class="excerpt-wrap">
+														<div class="excerpt">
+															<p>Copywriting at its best! Engaging, interesting, marketable and tailored to consumer needs. Blog Posts, Content optimisation and copyediting.</p>
+															<div class="button" href="https://elevate360.com.au/services/copywriting/" title="Find out more">
+																Find out More
+															</div>
+														</div>
+														<div class="overlay"></div>
+													</div></a>
+											</div>
+										</article>
+										<article class="single-item four columns blog-article1">
+											<div class="image-wrap">
+												<a href="https://elevate360.com.au/services/digital-campaigns/" rel="bookmark" title="Digital Campaigns"><img src="https://elevate360.com.au/wp-content/uploads/2016/11/startup_icon_small_opt.png" /></a>
+											</div>
+											<div class="inner content">
+												<h2 class="entry-title"><a href="https://elevate360.com.au/services/digital-campaigns/" rel="bookmark" title="Digital Campaigns">Digital Campaigns</a></h2>
+												<a href="https://elevate360.com.au/services/digital-campaigns/">
+													<div class="excerpt-wrap">
+														<div class="excerpt">
+															<p>Looking to create a digital marketing campaign that sits apart from the tired ROI focused chaff? Elevate is an idea based digital marketing agency.</p>
+															<div class="button" href="https://elevate360.com.au/services/digital-campaigns/" title="Find out more">
+																Find out More
+															</div>
+														</div>
+														<div class="overlay"></div>
+													</div></a>
+											</div>
+										</article>
+									</div>
+									<div class="row">
+										<article class="single-item four columns blog-article2">
+											<div class="image-wrap">
+												<a href="https://elevate360.com.au/services/digital-strategy/" rel="bookmark" title="Digital Strategy"><img src="https://elevate360.com.au/wp-content/uploads/2016/08/strategy-icon.png" /></a>
+											</div>
+											<div class="inner content">
+												<h2 class="entry-title"><a href="https://elevate360.com.au/services/digital-strategy/" rel="bookmark" title="Digital Strategy">Digital Strategy</a></h2>
+												<a href="https://elevate360.com.au/services/digital-strategy/">
+													<div class="excerpt-wrap">
+														<div class="excerpt">
+															<p>Elevate will help you plan and implement your digital marketing strategy for businesses to ensure you are on top of emerging digital trends.</p>
+															<div class="button" href="https://elevate360.com.au/services/digital-strategy/" title="Find out more">
+																Find out More
+															</div>
+														</div>
+														<div class="overlay"></div>
+													</div></a>
+											</div>
+										</article>
+										<article class="single-item four columns blog-article2">
+											<div class="image-wrap">
+												<a href="https://elevate360.com.au/services/google-adwords-management/" rel="bookmark" title="Google AdWords Management"><img src="https://elevate360.com.au/wp-content/uploads/2017/02/startups.png" /></a>
+											</div>
+											<div class="inner content">
+												<h2 class="entry-title"><a href="https://elevate360.com.au/services/google-adwords-management/" rel="bookmark" title="Google AdWords Management">Google AdWords Management</a></h2>
+												<a href="https://elevate360.com.au/services/google-adwords-management/">
+													<div class="excerpt-wrap">
+														<div class="excerpt">
+															<p>We Love Google Adwords Management, Its Our Primary Inbound Marketing Tool &amp; It Should Be Yours Too. Get Better PPC Management, Get A Proposal Today.</p>
+															<div class="button" href="https://elevate360.com.au/services/google-adwords-management/" title="Find out more">
+																Find out More
+															</div>
+														</div>
+														<div class="overlay"></div>
+													</div></a>
+											</div>
+										</article>
+										<article class="single-item four columns blog-article2">
+											<div class="image-wrap">
+												<a href="https://elevate360.com.au/services/hosting-support/" rel="bookmark" title="Hosting &amp; Support"><img src="https://elevate360.com.au/wp-content/uploads/2016/08/support-icon.png" /></a>
+											</div>
+											<div class="inner content">
+												<h2 class="entry-title"><a href="https://elevate360.com.au/services/hosting-support/" rel="bookmark" title="Hosting &amp; Support">Hosting &amp; Support</a></h2>
+												<a href="https://elevate360.com.au/services/hosting-support/">
+													<div class="excerpt-wrap">
+														<div class="excerpt">
+															<p>Elevate provides a safe and reliable web hosting service for businesses which keeps your website running and more importantly, growing.</p>
+															<div class="button" href="https://elevate360.com.au/services/hosting-support/" title="Find out more">
+																Find out More
+															</div>
+														</div>
+														<div class="overlay"></div>
+													</div></a>
+											</div>
+										</article>
+									</div>
+									<div class="row">
+										<article class="single-item four columns blog-article3">
+											<div class="image-wrap">
+												<a href="https://elevate360.com.au/services/landing-page-design/" rel="bookmark" title="Landing Page Design"><img src="https://elevate360.com.au/wp-content/uploads/2016/08/cro-icon.png" /></a>
+											</div>
+											<div class="inner content">
+												<h2 class="entry-title"><a href="https://elevate360.com.au/services/landing-page-design/" rel="bookmark" title="Landing Page Design">Landing Page Design</a></h2>
+												<a href="https://elevate360.com.au/services/landing-page-design/">
+													<div class="excerpt-wrap">
+														<div class="excerpt">
+															<p>Elevate can provide you with click through or lead generation landing pages that can navigate your customers towards making a commitment to your business.</p>
+															<div class="button" href="https://elevate360.com.au/services/landing-page-design/" title="Find out more">
+																Find out More
+															</div>
+														</div>
+														<div class="overlay"></div>
+													</div></a>
+											</div>
+										</article>
+										<article class="single-item four columns blog-article3">
+											<div class="inner content">
+												<h2 class="entry-title"><a href="https://elevate360.com.au/services/marketing-automation/" rel="bookmark" title="Marketing Automation">Marketing Automation</a></h2>
+											</div>
+										</article>
+										<article class="single-item four columns blog-article3">
+											<div class="image-wrap">
+												<a href="https://elevate360.com.au/services/sem/" rel="bookmark" title="Search Engine Marketing (SEM)"><img src="https://elevate360.com.au/wp-content/uploads/2016/08/sem-icon.png" /></a>
+											</div>
+											<div class="inner content">
+												<h2 class="entry-title"><a href="https://elevate360.com.au/services/sem/" rel="bookmark" title="Search Engine Marketing (SEM)">Search Engine Marketing (SEM)</a></h2>
+												<a href="https://elevate360.com.au/services/sem/">
+													<div class="excerpt-wrap">
+														<div class="excerpt">
+															<p>Elevate offers are range of pay per click consulting and management services that cover all types of paid media campaigns. From basic AdWords audits through to fully managed PPC campaigns.</p>
+															<div class="button" href="https://elevate360.com.au/services/sem/" title="Find out more">
+																Find out More
+															</div>
+														</div>
+														<div class="overlay"></div>
+													</div></a>
+											</div>
+										</article>
+									</div>
+								</section>
+							</div>
+							<!-- .entry-content -->
+						</section>
+					</div>
+				</article>
+				<!-- #post-## -->
+			</main>
+			<!-- #main -->
+		</div>
+		<!-- #primary -->
+		<div id="gotop"></div>
+		<footer id="colophon" class="site-footer" role="contentinfo">
+			<div class="container">
+				<div class="row footerrow" style="display: none">
+					<div class="three columns first">
+						<section id="nav_menu-7" class="widget widget_nav_menu">
+							<h4 class="widget-title">Creative</h4>
+							<div class="menu-creative-container">
+								<ul id="menu-creative" class="menu">
+									<li id="menu-item-4839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4839"><a href="https://elevate360.com.au/logo-design/">Logo Design</a></li>
+									<li id="menu-item-4838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4838"><a href="https://elevate360.com.au/brand-design/">Brand Design</a></li>
+									<li id="menu-item-4837" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4837"><a href="https://elevate360.com.au/ux-ui/">UX &amp; UI</a></li>
+									<li id="menu-item-4836" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4836"><a href="https://elevate360.com.au/web-design/">Web Design</a></li>
+									<li id="menu-item-4835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4835"><a href="https://elevate360.com.au/app-design/">App Design</a></li>
+									<li id="menu-item-4834" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4834"><a href="https://elevate360.com.au/campaign-design/">Campaign Design</a></li>
+									<li id="menu-item-0" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4834"> &nbsp </a></li>
+								</ul>
+							</div>
+						</section>
+					</div>
+					<div class="three columns">
+						<section id="nav_menu-5" class="widget widget_nav_menu">
+							<h4 class="widget-title">Web Development</h4>
+							<div class="menu-web-development-container">
+								<ul id="menu-web-development" class="menu">
+									<li id="menu-item-4859" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4859"><a href="https://elevate360.com.au/edm-development/">EDM Development</a></li>
+									<li id="menu-item-5090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5090"><a href="https://elevate360.com.au/banner-ad-development/">Banner Ad Development</a></li>
+									<li id="menu-item-4855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4855"><a href="https://elevate360.com.au/landing-page-development/">Landing Page Development</a></li>
+									<li id="menu-item-4858" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4858"><a href="https://elevate360.com.au/website-development/">Website Development</a></li>
+									<li id="menu-item-4857" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4857"><a href="https://elevate360.com.au/app-development/">App Development</a></li>
+									<li id="menu-item-4854" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4854"><a href="https://elevate360.com.au/web-app-development/">Web App Development</a></li>
+									<li id="menu-item-0" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4834"> &nbsp </a></li>
+								</ul>
+							</div>
+						</section>
+					</div>
+					<div class="three columns">
+						<section id="nav_menu-8" class="widget widget_nav_menu">
+							<h4 class="widget-title">Data &amp; Analytics</h4>
+							<div class="menu-data-analytics-container">
+								<ul id="menu-data-analytics" class="menu">
+									<li id="menu-item-4821" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4821"><a href="https://elevate360.com.au/google-analytics-agency/">Analytics Installation</a></li>
+									<li id="menu-item-4820" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4820"><a href="https://elevate360.com.au/data-analysis/">Data Analysis</a></li>
+									<li id="menu-item-4819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4819"><a href="https://elevate360.com.au/data-visualization-report-automation/">Data Visualization &amp; Report Automation</a></li>
+									<li id="menu-item-4818" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4818"><a href="https://elevate360.com.au/predictive-modelling/">Predictive Modelling</a></li>
+									<li id="menu-item-4817" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4817"><a href="https://elevate360.com.au/lifetime-value-analysis/">Lifetime Value Analysis</a></li>
+									<li id="menu-item-4816" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4816"><a href="https://elevate360.com.au/channel-contribution-analysis/">Channel Contribution Analysis</a></li>
+									<li id="menu-item-4815" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4815"><a href="https://elevate360.com.au/analysis-segmentation/">Analysis &amp; Segmentation</a></li>
+									<li id="menu-item-0" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4834"> &nbsp </a></li>
+
+								</ul>
+							</div>
+						</section>
+					</div>
+					<div class="three columns">
+						<section id="nav_menu-9" class="widget widget_nav_menu">
+							<h4 class="widget-title">Digital Marketing</h4>
+							<div class="menu-services-menu-container">
+								<ul id="menu-services-menu" class="menu">
+									<li id="menu-item-4101" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-4101"><a href="https://elevate360.com.au/services/conversion-rate-optimisation/">Conversion Rate Optimisation</a></li>
+									<li id="menu-item-4587" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-4587"><a href="https://elevate360.com.au/services/google-adwords-management/">Search Engine Marketing (SEM)</a></li>
+									<li id="menu-item-4106" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-4106"><a href="https://elevate360.com.au/services/seo-company/">Search Engine Optimisation (SEO)</a></li>
+									<li id="menu-item-4108" class="menu-item menu-item-type-post_type menu-item-object-service menu-item-4108"><a href="https://elevate360.com.au/services/social-media-advertising/">Social Media Advertising (SMA)</a></li>
+									<li id="menu-item-0" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4834"> &nbsp </a></li>
+
+								</ul>
+							</div>
+						</section>
+					</div>
+				</div>
+				<!-- .row -->
+				<div class="row" style="display: none">
+					<p id="breadcrumbs"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span class="breadcrumb_last">Home</span></span></p>
+				</div>
+			</div>
+			<div class="footer-5">
+				<section id="nav_menu-10" class="widget widget_nav_menu">
+					<div class="menu-terms-and-conditions-container">
+						<ul id="menu-terms-and-conditions" class="menu">
+							<li id="menu-item-4946" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4946"><a href="https://elevate360.com.au/submit-brief/">Submit a Brief</a></li>
+							<li id="menu-item-4593" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4593"><a href="https://elevate360.com.au/terms-and-conditions/">Terms and Conditions</a></li>
+							<li id="menu-item-4840" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4840"><a href="https://elevate360.com.au/privacy-security-policy/">Privacy &amp; Security Policy</a></li>
+							<li id="menu-item-4980" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4980"><a href="https://elevate360.com.au/sitemap_index.xml">Site Map</a></li>
+							<li id="menu-item-0" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4834"> &nbsp </a></li>
+
+						</ul>
+					</div>
+				</section>
+			</div>
+		</footer>
+	</div>
+	<!-- .container -->
+</div>
+
+
+
+<script type="text/javascript" src="plugins.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
